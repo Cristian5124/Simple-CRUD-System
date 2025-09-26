@@ -1,0 +1,74 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: black;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+button {
+    padding: 8px 15px;
+    margin-right: 5px;
+    border: none;
+    background-color: gray;
+    color: white;
+}
+
+#submit-btn {
+    background-color: green;
+}
+
+#cancel-btn {
+    background-color: red;
+    display: none;
+}
+
+.property-card {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.property-address {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.property-detail {
+    margin-bottom: 3px;
+}
+
+.btn-edit {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+}
+
+.btn-delete {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple CRUD System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Property Management System</h1>
+
+    <div class="form-section">
+        <h2 id="form-title">Add New Property</h2>
+        <form id="property-form">
+            <input type="hidden" id="property-id">
+
+            <div class="form-group">
+                <label>Address:</label>
+                <input type="text" id="address" required>
+            </div>
+
+            <div class="form-group">
+                <label>Price ($):</label>
+                <input type="number" id="price" required>
+            </div>
+
+            <div class="form-group">
+                <label>Size (sq m):</label>
+                <input type="number" id="size" required>
+            </div>
+
+            <div class="form-group">
+                <label>Description:</label>
+                <textarea id="description" rows="3"></textarea>
+            </div>
+
+            <button type="submit" id="submit-btn">Add Property</button>
+            <button type="button" id="cancel-btn" onclick="cancelEdit()">Cancel</button>
+        </form>
+    </div>
+
+    <div class="list-section">
+        <h2>Properties List</h2>
+        <div id="properties-list"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
