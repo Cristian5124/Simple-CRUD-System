@@ -92,7 +92,7 @@ mysql -u root -p < database-setup.sql
 
 ```bash
 # Clonar el repositorio
-git clone <tu-repositorio-url>
+git clone https://github.com/Cristian5124/Simple-CRUD-System.git
 cd property-crud-system
 
 # Compilar el proyecto
@@ -184,12 +184,12 @@ spring.jpa.show-sql=true
 
 ```bash
 # Cambiar usuario/contraseña en application.properties
-spring.datasource.username=tu_usuario
-spring.datasource.password=tu_contraseña
+spring.datasource.username=usuario
+spring.datasource.password=contraseña
 
 # O usar variables de entorno
-export DB_USERNAME=tu_usuario
-export DB_PASSWORD=tu_contraseña
+export DB_USERNAME=usuario
+export DB_PASSWORD=contraseña
 java -jar target/property-crud-system-0.0.1-SNAPSHOT.jar
 ```
 
@@ -288,7 +288,7 @@ server.port=8081
 # Error de autenticación MySQL
 # Solución: Verificar credenciales en application.properties
 spring.datasource.username=root
-spring.datasource.password=tu_contraseña_real
+spring.datasource.password=contraseña
 ```
 
 ---
