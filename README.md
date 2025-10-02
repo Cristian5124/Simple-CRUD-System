@@ -137,10 +137,11 @@ mvn spring-boot:run
 
 **Interfaz Web**: [http://localhost:8080](http://localhost:8080)
 
-
+<img width="975" height="609" alt="image" src="https://github.com/user-attachments/assets/6c2d0c17-3c09-476c-9416-c7f5df70c098" />
 
 **API REST**: [http://localhost:8080/api/v1/properties](http://localhost:8080/api/v1/properties)
 
+<img width="975" height="609" alt="image" src="https://github.com/user-attachments/assets/3b402b14-2f1d-4a4c-9106-e46515554617" />
 
 ---
 
@@ -160,9 +161,15 @@ mvn spring-boot:run
 
 ### Demostración en Vivo
 
+https://github.com/user-attachments/assets/3a7f70da-f582-40e5-9f0c-89a6fddb9b89
+
 **Aplicación Web**: [http://ec2-54-224-76-219.compute-1.amazonaws.com:8080](http://ec2-54-224-76-219.compute-1.amazonaws.com:8080)
 
+<img width="975" height="609" alt="image" src="https://github.com/user-attachments/assets/0fe64d9e-5641-456e-9d91-2779ab112b70" />
+
 **API REST**: [http://ec2-54-224-76-219.compute-1.amazonaws.com:8080/api/v1/properties](http://ec2-54-224-76-219.compute-1.amazonaws.com:8080/api/v1/properties)
+
+<img width="975" height="609" alt="image" src="https://github.com/user-attachments/assets/ddfbb634-5553-4c91-a72b-dcd45a7be08a" />
 
 ### Arquitectura AWS
 
